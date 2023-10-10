@@ -67,7 +67,7 @@ public class CharacterSelectionWindow extends JFrame implements ActionListener {
         }
 
         // Select the clicked cell
-        ((JButton)e.getSource()).setBorder(BorderFactory.createLoweredBevelBorder());
+            ((JButton)e.getSource()).setBorder(BorderFactory.createLoweredBevelBorder());
         ((JButton)e.getSource()).setBackground(Color.LIGHT_GRAY);
 
         // Show the character stats
